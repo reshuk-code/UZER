@@ -1,0 +1,155 @@
+.filter-container {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.product-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.input-group-text {
+    background-color: white;
+    border-right: none;
+}
+
+.input-group .form-control {
+    border-left: none;
+}
+
+.input-group .form-control:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+.wishlist-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.wishlist-btn:hover {
+    transform: scale(1.1);
+}
+
+.wishlist-btn.active {
+    color: #dc3545;
+}
+
+.wishlist-btn svg {
+    width: 20px;
+    height: 20px;
+}
+
+.product-card {
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.wishlist-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.wishlist-btn:hover {
+    transform: scale(1.1);
+}
+
+.wishlist-btn.active {
+    color: #dc3545;
+}
+
+.wishlist-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.product-link {
+    display: block;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .product-link:hover {
+    text-decoration: none;
+  }
+  
+  .product-card {
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .product-card:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  }
+  
+
+  .wishlist-btn {
+    background: none;
+    border: none;
+    color: #dc3545;
+    padding: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .wishlist-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  .wishlist-btn.active {
+    color: #dc3545;
+  }

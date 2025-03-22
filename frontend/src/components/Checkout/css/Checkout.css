@@ -1,0 +1,23 @@
+.form-check-label {
+    cursor: pointer;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+}
+
+.form-check-input:checked + .form-check-label {
+    border-color: #0d6efd;
+    background-color: #f8f9fa;
+}
+
+.form-check {
+    padding: 0;
+    margin-bottom: 1rem;
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 1.25rem;
+    margin-left: 1rem;
+}

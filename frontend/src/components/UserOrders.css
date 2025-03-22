@@ -1,0 +1,33 @@
+.user-orders .accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: inherit;
+    box-shadow: none;
+}
+
+.user-orders .accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+.user-orders .accordion-item {
+    border-radius: 0.375rem;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.user-orders .badge {
+    font-size: 0.75rem;
+    padding: 0.5em 0.75em;
+}
+
+.user-orders .table {
+    margin-bottom: 0;
+}
+
+.user-orders .table th {
+    background-color: #f8f9fa;
+}
+
+.user-orders .accordion-button::after {
+    margin-left: 1rem;
+}

@@ -1,0 +1,208 @@
+.profile-container {
+    margin-top: 76px;
+    padding: 2rem 1rem;
+}
+
+/* Sidebar Styles */
+.profile-sidebar {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.profile-header {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.profile-image-container {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-upload-label {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.image-upload-label:hover {
+    transform: scale(1.1);
+}
+
+/* List Group Styles */
+.list-group-item {
+    border: none;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    color: #3498db;
+}
+
+.list-group-item.active {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #e0e0e0;
+}
+
+/* Main Content Area */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Form Controls */
+.form-control {
+    padding: 0.75rem 1rem;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.15);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+    padding: 0.75rem 1.5rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    transform: translateY(-1px);
+}
+
+/* Order Cards */
+.order-card {
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.order-card:hover {
+    transform: translateY(-2px);
+}
+
+/* Address Cards */
+.address-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.address-card:hover {
+    border-color: #3498db;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Wishlist Items */
+.wishlist-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 0;
+    transition: background-color 0.3s ease;
+}
+
+.wishlist-item:hover {
+    background-color: #f8f9fa;
+}
+
+/* Admin Sections */
+.admin-stats {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .profile-container {
+        margin-top: 60px;
+        padding: 1rem;
+    }
+
+    .profile-sidebar {
+        margin-bottom: 1rem;
+    }
+
+    .card-body {
+        padding: 1.5rem;
+    }
+
+    .profile-image-container {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .profile-sidebar,
+    .card {
+        background-color: #2c3e50;
+        color: #ecf0f1;
+    }
+
+    .list-group-item {
+        background-color: #2c3e50;
+        color: #ecf0f1;
+    }
+
+    .list-group-item:hover {
+        background-color: #34495e;
+    }
+
+    .form-control {
+        background-color: #34495e;
+        border-color: #455d7a;
+        color: #ecf0f1;
+    }
+
+    .address-card {
+        border-color: #455d7a;
+    }
+
+    .wishlist-item {
+        border-color: #455d7a;
+    }
+}

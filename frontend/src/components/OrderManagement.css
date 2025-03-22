@@ -1,0 +1,101 @@
+.order-management {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.status-pending {
+    color: #856404;
+    background-color: #fff3cd;
+}
+
+.status-processing {
+    color: #0c5460;
+    background-color: #d1ecf1;
+}
+
+.status-shipped {
+    color: #004085;
+    background-color: #cce5ff;
+}
+
+.status-delivered {
+    color: #155724;
+    background-color: #d4edda;
+}
+
+.status-cancelled {
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050;
+}
+
+.modal-dialog {
+    margin: 1.75rem auto;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.table td {
+    vertical-align: middle;
+}
+.status-pending {
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.status-processing {
+    background-color: #cff4fc;
+    border-color: #b6effb;
+}
+
+.status-shipped {
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.status-delivered {
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}
+
+.status-cancelled {
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.form-select.status-pending:focus {
+    border-color: #ffeeba;
+    box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+}
+
+.form-select.status-processing:focus {
+    border-color: #b6effb;
+    box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25);
+}
+
+.form-select.status-shipped:focus,
+.form-select.status-delivered:focus {
+    border-color: #badbcc;
+    box-shadow: 0 0 0 0.25rem rgba(25, 135, 84, 0.25);
+}
+
+.form-select.status-cancelled:focus {
+    border-color: #f5c2c7;
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+}

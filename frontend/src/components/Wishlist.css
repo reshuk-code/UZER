@@ -1,0 +1,31 @@
+.wishlist-container {
+    padding: 20px;
+}
+
+.wishlist-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,.1);
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.card-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

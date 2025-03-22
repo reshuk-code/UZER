@@ -1,0 +1,172 @@
+.payment-method-select {
+    margin-bottom: 2rem;
+}
+
+.payment-details {
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.payment-status {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.payment-status.pending {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.payment-status.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.payment-status.failed {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+.order-summary {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.order-summary h5 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary:disabled {
+    cursor: not-allowed;
+    opacity: 0.65;
+}
+
+.alert {
+    border-radius: 0.5rem;
+    padding: 1rem 1.25rem;
+}
+
+.spinner-border {
+    margin-right: 0.5rem;
+}
+
+.card {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border: none;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.retry-button {
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .card-body {
+        padding: 1.5rem;
+    }
+    
+    .order-summary {
+        padding: 1rem;
+    }
+}
+
+
+.order-details {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.shipping-info {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.form-control-lg,
+.form-select-lg {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+}
+
+.btn-lg {
+    padding: 0.75rem 1.25rem;
+    font-size: 1rem;
+}
+
+.text-primary {
+    color: #0d6efd !important;
+}
+
+.spinner-border {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+@media (max-width: 768px) {
+    .bg-light {
+        min-height: auto;
+        border-right: none;
+        border-bottom: 1px solid #dee2e6;
+        margin-bottom: 2rem;
+    }
+
+    .container-fluid {
+        padding-top: 1rem !important;
+    }
+
+    .order-details,
+    .shipping-info {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Add animations */
+.card {
+    animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
