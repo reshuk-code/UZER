@@ -347,7 +347,7 @@ const ProductDetails = () => {
                     {mediaPreviews.videos.map((video, index) => (
                         <div key={`preview-vid-${index}`} className="preview-item">
                             <video controls>
-                                <source src={video.path} type="video/mp4" />
+                                <source src={"https://uzer-server.onrender.com"+video.path} type="video/mp4" />
                             </video>
                             <button
                                 type="button"
@@ -454,7 +454,7 @@ const ProductDetails = () => {
                             {review.videos?.map((video, index) => (
                                 <div key={`vid-${index}`} className="media-item">
                                     <video controls>
-                                        <source src={video.path} type="video/mp4" />
+                                        <source src={"https://uzer-server.onrender.com"+video.path} type="video/mp4" />
                                     </video>
                                     {review.user._id === localStorage.getItem('userId') && (
                                         <button 
