@@ -24,6 +24,9 @@ dist-ssr
 *.sw?
 
 
-uploads/
+uploads/categories/*
+uploads/products/*
+uploads/profiles/*
+uploads/reviews/*
 .env
 package-lock.json
