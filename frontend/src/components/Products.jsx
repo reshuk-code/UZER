@@ -247,7 +247,7 @@ const Products = () => {
                                 >
                                     <div className="position-relative">
                                         <img
-                                            src={"https://uzer-server.onrender.com"+product.images[0]?.path || '/placeholder.jpg'}
+                                            src={`https://uzer-server.onrender.com${product.images[0]?.path}` || '/placeholder.jpg'}
                                             className="card-img-top"
                                             alt={product.name}
                                             onError={(e) => {

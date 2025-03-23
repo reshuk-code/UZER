@@ -134,7 +134,7 @@ const NavBar = () => {
                         <div className="profile-avatar">
                             {user.profilePicture ? (
                                 <img 
-                                    src={user.profilePicture} 
+                                    src={`https://uzer-server.onrender.com${user.profilePicture}`} 
                                     alt={`${user.firstName} ${user.lastName}`}
                                     className="profile-image"
                                 />
@@ -234,7 +234,7 @@ const NavBar = () => {
                                         }}
                                     >
                                         <img
-                                            src={"https://uzer-server.onrender.com"+product.images[0]?.path || '/placeholder.jpg'}
+                                            src={`https://uzer-server.onrender.com${product.images[0]?.path}` || '/placeholder.jpg'}
                                             alt={product.name}
                                             className="search-result-image"
                                             onError={(e) => {

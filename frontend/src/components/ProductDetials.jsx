@@ -331,7 +331,7 @@ const ProductDetails = () => {
                 <div className="media-previews">
                     {mediaPreviews.images.map((image, index) => (
                         <div key={`preview-img-${index}`} className="preview-item">
-                            <img src={"https://uzer-server.onrender.com"+image.path} alt={`Preview ${index + 1}`} />
+                            <img src={`https://uzer-server.onrender.com${image.path}`} alt={`Preview ${index + 1}`} />
                             <button
                                 type="button"
                                 className="remove-preview"
@@ -347,7 +347,7 @@ const ProductDetails = () => {
                     {mediaPreviews.videos.map((video, index) => (
                         <div key={`preview-vid-${index}`} className="preview-item">
                             <video controls>
-                                <source src={"https://uzer-server.onrender.com"+video.path} type="video/mp4" />
+                                <source src={`https://uzer-server.onrender.com${video.path}`} type="video/mp4" />
                             </video>
                             <button
                                 type="button"
@@ -437,7 +437,7 @@ const ProductDetails = () => {
                             {review.images?.map((image, index) => (
                                 <div key={`img-${index}`} className="media-item">
                                     <img 
-                                        src={"https://uzer-server.onrender.com"+image.path} 
+                                        src={`https://uzer-server.onrender.com${image.path}` }
                                         alt={`Review ${index + 1}`} 
                                         onClick={() => window.open(image.path, '_blank')}
                                     />
@@ -454,7 +454,7 @@ const ProductDetails = () => {
                             {review.videos?.map((video, index) => (
                                 <div key={`vid-${index}`} className="media-item">
                                     <video controls>
-                                        <source src={"https://uzer-server.onrender.com"+video.path} type="video/mp4" />
+                                        <source src={`https://uzer-server.onrender.com"${video.path}`} type="video/mp4" />
                                     </video>
                                     {review.user._id === localStorage.getItem('userId') && (
                                         <button 

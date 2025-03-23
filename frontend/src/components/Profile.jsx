@@ -124,7 +124,7 @@ const fetchUserProfile = async () => {
                         <div className="profile-header text-center p-4">
                             <div className="profile-image-container mb-3">
                                 <img 
-                                    src={"https://uzer-server.onrender.com"+user?.profilePicture || '/default-avatar.png'} 
+                                    src={user?.profilePicture || '/default-avatar.png'} 
                                     alt="Profile" 
                                     className="rounded-circle profile-image"
                                 />
