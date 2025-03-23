@@ -4,7 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  rollupOptions: {
-    external: ["mongoose"], // Exclude mongoose from frontend
-  },
+  build: {
+    rollupOptions: {
+      external: ['mongoose'] // This ensures mongoose is not bundled
+    }
+  }
 })
