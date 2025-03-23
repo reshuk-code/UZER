@@ -1,6 +1,6 @@
 import apiInstance from '../../../axios/axio';
 
-const BACKEND_URL = 'http://localhost:3000';
+const BACKEND_URL = 'https://uzer-server.onrender.com/';
 
 const transformReviewMedia = (review) => {
     if (!review) return null;

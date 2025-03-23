@@ -1,6 +1,6 @@
 import apiInstance from '../axios/axio';
 import { API_ENDPOINTS } from '../config/config';
-const BACKEND_URL = 'http://localhost:3000';
+const BACKEND_URL = 'https://uzer-server.onrender.com/';
 
 const addBackendUrl = (product) => {
     if (!product) return null;

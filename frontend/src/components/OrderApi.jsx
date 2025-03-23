@@ -1,6 +1,6 @@
 import { updatePaymentStatus } from '../../../backend/controllers/order/order.controllers';
 import axiosInstance from '../axios/axio';
-const BASE_URL = 'http://localhost:3000/api';
+const BASE_URL = 'https://uzer-server.onrender.com/api';
 
 const transformOrderData = (order) => {
     if (!order) return null;
