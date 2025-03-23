@@ -76,7 +76,17 @@ const OrderManagement = () => {
 
             <div className="card">
                 <div className="card-body">
-      
+                    <div className="d-flex justify-content-between align-items-center mb-4">
+                        <h3 className="mb-0">Order Management</h3>
+                        <button 
+                            className="btn btn-primary"
+                            onClick={fetchOrders}
+                            disabled={isLoading}
+                        >
+                            <i className="bi bi-arrow-clockwise me-2"></i>
+                            Refresh
+                        </button>
+                    </div>
 
                     <div className="table-responsive">
                         <table className="table table-hover align-middle">
