@@ -30,7 +30,7 @@ const app = express()
 // Connect to database
 connectDB()
 const corsOptions = {
-    origin: "https://uzer-irmk.onrender.com/",
+    origin: "*",
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization']
