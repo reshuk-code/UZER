@@ -331,7 +331,7 @@ const ProductDetails = () => {
                 <div className="media-previews">
                     {mediaPreviews.images.map((image, index) => (
                         <div key={`preview-img-${index}`} className="preview-item">
-                            <img src={image.path} alt={`Preview ${index + 1}`} />
+                            <img src={"https://uzer-server.onrender.com"+image.path} alt={`Preview ${index + 1}`} />
                             <button
                                 type="button"
                                 className="remove-preview"
@@ -437,7 +437,7 @@ const ProductDetails = () => {
                             {review.images?.map((image, index) => (
                                 <div key={`img-${index}`} className="media-item">
                                     <img 
-                                        src={image.path} 
+                                        src={"https://uzer-server.onrender.com"+image.path} 
                                         alt={`Review ${index + 1}`} 
                                         onClick={() => window.open(image.path, '_blank')}
                                     />

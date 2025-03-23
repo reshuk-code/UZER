@@ -93,7 +93,7 @@ const Wishlist = ({ setAlert }) => {
                         <div key={item._id} className="col-12 col-md-6 col-lg-4">
                             <div className="card h-100">
                                 <img 
-                                    src={item.images[0]?.path} 
+                                    src={"https://uzer-server.onrender.com"+item.images[0]?.path} 
                                     className="card-img-top wishlist-img" 
                                     alt={item.name}
                                 />

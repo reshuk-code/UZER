@@ -234,7 +234,7 @@ const NavBar = () => {
                                         }}
                                     >
                                         <img
-                                            src={product.images[0]?.path || '/placeholder.jpg'}
+                                            src={"https://uzer-server.onrender.com"+product.images[0]?.path || '/placeholder.jpg'}
                                             alt={product.name}
                                             className="search-result-image"
                                             onError={(e) => {

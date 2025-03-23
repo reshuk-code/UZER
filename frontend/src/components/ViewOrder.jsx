@@ -133,7 +133,7 @@ const ViewOrder = () => {
                                     <td>
                                         <div className="product-info">
                                             <img 
-                                                src={item.product.images?.[0]?.path || '/placeholder.jpg'} 
+                                                src={"https://uzer-server.onrender.com"+item.product.images?.[0]?.path || '/placeholder.jpg'} 
                                                 alt={item.product.name}
                                                 className="product-thumbnail"
                                             />

@@ -40,7 +40,7 @@ const Cart = () => {
                                             <div className="row align-items-center">
                                                 <div className="col-md-2">
                                                     <img
-                                                        src={item.images[0]?.path || '/placeholder.jpg'}
+                                                        src={"https://uzer-server.onrender.com"+item.images[0]?.path || '/placeholder.jpg'}
                                                         alt={item.name}
                                                         className="img-fluid rounded"
                                                         onError={(e) => {
