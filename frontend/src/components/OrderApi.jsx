@@ -1,4 +1,4 @@
-import { updatePaymentStatus } from '../../../backend/controllers/order/order.controllers';
+
 import axiosInstance from '../axios/axio';
 const BASE_URL = 'https://uzer-server.onrender.com/api';
 
