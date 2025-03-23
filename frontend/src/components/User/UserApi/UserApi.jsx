@@ -26,7 +26,6 @@ const transformReviewMedia = (review) => {
     };
 };
 
-
 export const UserApi = {
     // Login user
     login: async (credentials) => {
@@ -495,8 +494,5 @@ export const UserApi = {
         }
     },
 };
-
-
-
 
 export default UserApi;
