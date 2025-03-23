@@ -100,9 +100,6 @@ export const ProductApi = {
             const response = await apiInstance.post(
                 API_ENDPOINTS.PRODUCTS.CREATE,
                 productData,
-                {
-                    headers: { 'Content-Type': 'multipart/form-data' }
-                }
             );
             return response.data;
         } catch (error) {
@@ -115,9 +112,6 @@ export const ProductApi = {
             const response = await apiInstance.put(
                 API_ENDPOINTS.PRODUCTS.UPDATE(id),
                 productData,
-                {
-                    headers: { 'Content-Type': 'multipart/form-data' }
-                }
             );
             return response.data;
         } catch (error) {
