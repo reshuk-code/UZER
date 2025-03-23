@@ -1,6 +1,6 @@
 import { updatePaymentStatus } from '../../../backend/controllers/order/order.controllers';
 import axiosInstance from '../axios/axio';
-const BASE_URL = import.meta.env.VITE_API_URL;
+const BASE_URL = 'http://localhost:3000/api';
 
 const transformOrderData = (order) => {
     if (!order) return null;
