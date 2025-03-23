@@ -221,7 +221,7 @@ const OrderManagement = () => {
                                     <td>${(selectedOrder.totalAmount || 0).toFixed(2)}</td>
                                 </tr>
                                 <tr>
-                                    <td colSpan="3" className="text-end">Shipping:</td>
+                                    <td colSpan="3" className="text-end">Shipping</td>
                                     <td>${(selectedOrder.shippingCost || 0).toFixed(2)}</td>
                                 </tr>
                                 <tr>

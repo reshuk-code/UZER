@@ -1,5 +1,5 @@
 import Brand from '../../models/brand.models.js';
-import  AppError  from '../../utils/AppError.js';
+import { AppError } from '../../utils/AppError.js';
 
 // @desc    Create a new brand
 // @route   POST /api/brands

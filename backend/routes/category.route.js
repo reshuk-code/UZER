@@ -11,7 +11,7 @@ import { protect } from '../config/auth/auth.js';
 import { admin } from '../config/auth/auth.js';
 import multer from 'multer';
 import path from 'path';
-import  AppError  from '../utils/AppError.js';
+import { AppError } from '../utils/AppError.js';
 
 const router = express.Router();
 
